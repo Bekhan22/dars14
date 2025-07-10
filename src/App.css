@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: grey;
+}
+
+.tel {
+  background-color: #2C2F35;
+  width: 428px;
+  height: 926px;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+#d1 {
+  color: #F79841;
+}
+
+#d2 {
+  color: #6F72E2;
+}
+
+#d3 {
+  color: #84CB69;
+}
+
+.card {
+  background-color: #32363C;
+  width: 117px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card i {
+  color: yellow;
+}
+
+.h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.h1 i {
+  color: yellow;
+  margin-top: 50px;
+}
+
+.hamster-box {
+  width: 294px;
+  height: 294px;
+  border-radius: 100vh;
+  background: linear-gradient(180deg, #35389E 0%, #1C2848 98%);
+  border: 10px solid #5155DA;
+  text-align: center;
+  margin: 100px 0px 0px 30px;
+}
+
+.dum img {
+  width: 164px;
+  height: 273px;
+}
+
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin-top: 90px;
+}
+
+.ii i {
+  color: #F79841;
+}
+
+.card2 {
+  width: 75px;
+  height: 50px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  color: #595e69;
+}
+
+.card2:hover {
+  background-color: #21242980;
+  transition: 0.5s;
+  padding-top: 5px;
+}
+
+.cards2 {
+  background-color: #32363C;
+  display: flex;
+  border-radius: 8px;
+  padding: 5px 0px 0px 10px;
+  width: 398px;
+  height: 60px;
+  margin-top: 50px;
+}
+
+.hamster-box p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: orangered;
+  font-size: 24px;
+}
+
+@keyframes tepaga {
+  from {
+    
+  }
+
+  to {
+    top: -50px;
+
+    opacity: 0;
+  }
+}
